@@ -1,5 +1,3 @@
-
---# Main
 --Simple Button - Controlled Fan (Simulated)
 
 function setup()
@@ -47,7 +45,6 @@ function draw()
     if fanOn then
         text("FAN: ON", WIDTH / 2, HEIGHT / 2)
     else
-        fill(202, 16, 28)
         text("FAN: OFF", WIDTH / 2, HEIGHT / 2)
     end
 end
